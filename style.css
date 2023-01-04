@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav {
+    height: 40px;
+}
+
+.top-nav-header {
+    padding-left: 80px;
+    display: flex;
+    padding-top: 40px;
+    background-color: #141414;
+    width: 1500px;
+    position: fixed;
+    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.dummy-div {
+    height: 90px;
+    width: 1500px;
+    background-color: #141414;
+}
+
+.content {
+    background-color: #141414;
+}
+
+.logo-img {
+    height: 35px;
+    width: 35px;
+}
+
+.logo-name {
+    padding-top: 9px;
+    color: white;
+    font-weight: bolder;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.header-links {
+    display: flex;
+    padding-left: 60px;
+}
+
+.header-link {
+    padding-left: 15px;
+    font-weight: bolder;
+    padding-top: 8px;
+    font-size: large;
+    text-decoration: none;
+    color: white;
+}
+
+.header-link:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+#my-list {
+    padding-right: 300px;
+}
+
+.search-box {
+    background-color: #ff1493;
+    width: 300px;
+    height: 25px;
+    padding: 8px;
+    margin: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;
+    padding-left: 40px;
+}
+
+.search-box input {
+    border: none;
+    width: 380px;
+    outline: none;
+    font-size: 15px;
+    background-color: #ff1493;
+    padding-left: 20px;
+}
+
+::placeholder {
+    color: white;
+    font-weight: bold;
+}
+
+#search-icon {
+    color: white;
+    background-color: #ff1493;
+    padding-top: 7px;
+}
+
+.search-suggestion {
+    display: none;
+    position: absolute;
+    top: 57px;
+    background-color: black;
+    width: 350px;
+    height: 100px;
+    margin-left: -40px;
+    border-radius: 15px;
+}
+
+.suggestion-heading {
+    color: white;
+    padding-top: 10px;
+    font-size: x-large;
+    padding-left: 40px;
+    font-weight: bolder;
+}
+
+.suggestion-content {
+    color: white;
+    padding-left: 40px;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.suggestion-content:hover {
+    background-color: #ff1493;
+    height: 35px;
+}
+
+#suggestion-close {
+    padding-top: 5px;
+    color: white;
+    display: none;
+}
+
+.search-box:focus-within .search-suggestion,
+.search-box:focus-within #suggestion-close {
+    display: block;
+}
+
+.signin {
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.signin:hover {
+    background-color: #ff1493;
+    border-radius: 20px;
+    width: 80px;
+    height: 30px;
+}
+
+.top-slider {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 200px;
+    background-color: black;
+    padding-top: 30px;
+    margin-left: 70px;
+    height: 500px;
+    width: 1305px;
+    display: flex;
+    border: solid black;
+    border-radius: 20px;
+}
+
+.match-details {
+    height: 100px;
+    width: 500px;
+    background-color: white;
+}
+
+.line-one {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    padding-bottom: 10px;
+}
+
+.line-two {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    font-size: larger;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.line-three {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    font-size: larger;
+}
+
+.match-image {
+    height: 480px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+    padding-top: 0px;
+    padding-left: 20px;
+}
+
+.match-image-content {
+    border: solid black;
+    border-radius: 15px;
+    height: 480px;
+}
+
+.watch-list {
+    padding-left: 68px;
+    padding-top: 40px;
+}
+
+.watch-list-headings {
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#watch-list-heading-movies {
+    padding-right: 0px;
+}
+
+#watch-list-heading-movies-see-all {
+    padding-left: 0px;
+}
+
+.wathc-list-viewall {
+    padding-left: 100px;
+}
+
+.view-all-link {
+    text-decoration: none;
+    color: #ff1493;
+}
+
+.watchlist-images {
+    display: flex;
+    padding-top: 20px;
+}
+
+.watchlist-image {
+    height: 125px;
+    width: 250px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+
+.watchlist-images-movies {
+    padding-right: 50px;
+    padding-top: 20px;
+    display: flex;
+}
+
+.watchlist-image-movies {
+    height: 200px;
+    width: 165px;
+    border: solid black;
+    border-radius: 15px;
+}
+
+.watchlist-images a :hover,
+.watchlist-images-movies a :hover {
+    transform: scale(1.15);
+}
+
+#samba-boys {
+    padding-left: 1130px;
+}
+
+#match-preview {
+    padding-left: 1175px;
+}
+
+.footer {
+    background-color: #2b2b2b;
+    height: 470px;
+    width: 1500pv;
+    display: flex;
+}
+
+.footer-contents-one {
+    background-color: #2b2b2b;
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-right: 100px;
+}
+
+.footer-contents {
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+.footer-content {
+    padding-top: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.footer-contents-heading {
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+}
+
+.social-media-links {
+    display: flex;
+    padding-top: 30px;
+}
+
+.sm-icon {
+    padding-left: 20px;
+}
+
+.download-links {
+    padding-top: 30px;
+    color: white;
+    font-size: larger;
+}
+
+.store-logos {
+    display: flex;
+    padding-top: 30px;
+}
+
+#media-link {
+    color: #ff1493;
+}
+
+.appstore-logo {
+    padding-left: 10px;
+}
+
+.footer-end {
+    padding-top: 20px;
+    background-color: #2b2b2b;
+}
+
+.footer-end-content {
+    display: flex;
+}
+
+.jio-logo img {
+    height: 30px;
+    width: 30px;
+    padding-left: 20px;
+}
+
+.footer-end-content {
+    padding-top: 10px;
+}
+
+.copy-right {
+    padding-left: 10px;
+    color: white;
+    padding-top: 6px;
+}
+
+.version {
+    padding-left: 900px;
+    color: white;
+    padding-top: 6px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#highlight-seeall {
+    padding-left: 980px;
+}
+
+#must-watch-seeall {
+    padding-left: 1010px;
+}
+
+#top-highlight,
+#trending-see-all {
+    padding-left: 980px;
+}
+
+#mystery-seeall {
+    padding-left: 1050px;
+}
+
+#best-seeall {
+    padding-left: 1015px;
+}
+
+#multistar-seeall {
+    padding-left: 950px;
+}
+
+.watchlist-images-movies a {
+    padding-right: 2px;
+}
+
+#tennis-seeall {
+    padding-left: 980px;
+}
+
+#reality-seeall {
+    padding-left: 1080px;
+}
+
+#korean-seeall {
+    padding-left: 1010px;
+}
+
+#mustwatch-seeall {
+    padding-left: 1040px;
+}
+
+#crime-seeall {
+    padding-left: 1040px;
+}
+
+#blockbluster-seeall {
+    padding-left: 1040px;
+}
+
+#jiotop-seeall {
+    padding-left: 1000px;
+}
+
+#comedy-seeall {
+    padding-left: 1020px;
+}
